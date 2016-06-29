@@ -1,6 +1,6 @@
 {
   "name": "yoleth-themepicker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Theme picker for AngularJS",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.5",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^0.10.0",
     "grunt-contrib-uglify": "^0.5.0"
   }

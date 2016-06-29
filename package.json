@@ -1,0 +1,29 @@
+{
+  "name": "yoleth-themepicker",
+  "version": "1.0.0",
+  "description": "Theme picker for AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoleth/yoleth-themepicker.git"
+  },
+  "keywords": [
+    "Themepicker",
+    "angularjs"
+  ],
+  "author": "Mael Kermann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoleth/yoleth-themepicker/issues"
+  },
+  "homepage": "https://github.com/yoleth/yoleth-themepicker",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.0"
+  }
+}

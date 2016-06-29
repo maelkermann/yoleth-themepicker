@@ -1,0 +1,24 @@
+<div class="yl-themes" ng-init="ylThemeOpen = false">
+
+    <div class="yl-theme-wrapper" ng-click="ylThemeOpen = !ylThemeOpen">
+        <div class="yl-theme-color" ng-style="{ 'background-color': ngModel.color }"></div>
+        <div class="yl-theme-name"  ng-model="theme.name">{{ ngModel.name }}</div>
+    </div>
+
+    <div class="yl-themes-list" ng-show="ylThemeOpen">
+        <ul>
+            <li ng-repeat="theme in themes track by $index" ng-if="$index % 2 == 0" ng-click="selectTheme(theme)">
+                <div class="yl-list-theme-color" ng-style="{ 'background-color': theme.color }"></div>
+                <div class="yl-list-theme-name"  ng-model="theme.name">{{ theme.name }}</div>
+            </li>
+        </ul>
+        <ul>
+            <li ng-repeat="theme in themes track by $index" ng-if="$index % 2 == 1" ng-click="selectTheme(theme)">
+                <div class="yl-list-theme-color" ng-style="{ 'background-color': theme.color }"></div>
+                <div class="yl-list-theme-name"  ng-model="theme.name">{{ theme.name }}</div>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+
+</div>
